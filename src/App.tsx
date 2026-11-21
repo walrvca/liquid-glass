@@ -29,7 +29,7 @@ import {
   ExternalLink,
   FileText,
   Folder,
-  Github,
+  GitBranch,
   Layers,
   LayoutDashboard,
   LoaderCircle,
@@ -447,7 +447,7 @@ export function App() {
                   rel="noreferrer"
                   aria-label="Open repository on GitHub"
                 >
-                  <Github size={17} />
+                  <GitBranch size={17} />
                 </a>
               </Button>
             </Hint>
@@ -546,7 +546,7 @@ export function App() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <Github size={16} />
+                  <GitBranch size={16} />
                   Repository
                   <ExternalLink size={13} />
                 </a>
