@@ -22,7 +22,7 @@
     "glassmorphism"
   ],
   "engines": {
-    "node": ">=22.12"
+    "node": "^22.22.2 || >=24.15.0"
   },
   "type": "module",
   "scripts": {

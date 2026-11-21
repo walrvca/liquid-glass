@@ -10,7 +10,7 @@ Thanks for your interest in Liquid Glass. This guide explains how to propose cha
 
 ## Set up
 
-Requires Node.js 22.12 or later (see `.nvmrc`).
+Requires Node.js 24.15 or later, or 22.22.2 or later on Node 22 (see `.nvmrc`).
 
 ```bash
 npm ci

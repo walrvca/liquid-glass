@@ -17,7 +17,7 @@ It also shows tokens, typography, spacing, icons, and guidelines. Each section h
 
 ## Getting started
 
-Requires Node.js 22.12 or later and npm.
+Requires Node.js 24.15 or later (or 22.22.2 or later on Node 22) and npm.
 
 ```bash
 git clone https://github.com/walrvca/liquid-glass.git
