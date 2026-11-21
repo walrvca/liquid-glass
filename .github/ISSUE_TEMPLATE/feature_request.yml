@@ -1,0 +1,20 @@
+name: Feature or component request
+description: Suggest a new component or an improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What do you need to do that the design system does not support today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: How could it work? Mention how it fits the glass and solid surface rules.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
