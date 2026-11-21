@@ -5,8 +5,10 @@ updates:
     schedule:
       interval: weekly
     groups:
+      # Only minor and patch updates are grouped; major upgrades arrive as separate PRs.
       dev-dependencies:
         dependency-type: development
+        update-types: [minor, patch]
   - package-ecosystem: github-actions
     directory: /
     schedule:
